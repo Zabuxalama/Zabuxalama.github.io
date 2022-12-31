@@ -1,0 +1,285 @@
+/* 
+FF5BAE- F88379
+
+
+
+ */
+ html {
+    scroll-behavior: smooth;
+  }
+body{
+    color: white;
+    background-color: #000c19;
+}
+a{
+    color: #fff;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.banner {
+	background-color:#000c19;
+	border:1px solid #F88379;
+	display:inline-block;
+	cursor:pointer;
+	padding:16px 31px;
+	font-family: Arvo;
+}
+.stengah-bulat{
+    border-radius: 15px;
+}
+.box {
+    box-shadow: 3px 4px 0px 0px #F88379;
+    /* text-shadow: 0 0 10px #F88379, 0 0 20px #F88379,0 0 30px #F88379, 0 0 40px #F88379, 0 0 50px #F88379; */
+}
+.a:hover {
+    top: 3px;
+    margin-left: 4px;
+    box-shadow: 3px 4px 0px 0px #F8837900;
+    /* text-shadow: 0 0 10px #F88379, 0 0 20px #F88379,0 0 30px #F88379, 0 0 40px #F88379, 0 0 50px #F88379; */
+}
+.a {
+    box-shadow: 3px 4px 0px 0px #F88379;
+    /* text-shadow: 0 0 10px #F88379, 0 0 20px #F88379,0 0 30px #F88379, 0 0 40px #F88379, 0 0 50px #F88379; */
+}
+.neon {
+    color: white;
+    text-shadow: 0 0 10px #F88379, 0 0 20px #F88379,0 0 30px #F88379, 0 0 40px #F88379, 0 0 50px #F88379;
+}
+.logo {
+	font-family: Iceberg;
+}
+.gede1 {
+    font-size: 50px;
+}
+.gede2 {
+    font-size: 30px;
+}
+.gede3 {
+    font-size: 25px;
+}
+.gede4 {
+    font-size: 20px;
+}
+.gede5 {
+    font-size: 15px;
+}
+.ka-left {
+    animation: sret-left 5s;
+}
+.ka-right {
+    animation: sret-right 5s;
+}
+div{
+    float: center;
+}
+kaki{
+    margin-right: 20%;
+}
+
+Barqah-Drop1 {
+    animation: sret-kebawah 1s;
+}
+Barqah-Drop2 {
+  position: relative;
+    animation: sret-kebawah 2s;
+}
+Barqah-Drop3 {
+  position: relative;
+    animation: sret-kebawah 3s;
+}
+Barqah-Drop4 {
+  position: relative;
+    animation: sret-kebawah 4s;
+}
+Barqah-Drop5 {
+  position: relative;
+    animation: sret-kebawah 5s;
+}
+Barqah-Drop6 {
+  position: relative;
+    animation: sret-kebawah 6s;
+}
+Barqah-Drop7 {
+    position: relative;
+    animation: sret-kebawah 7s;
+}
+Barqah-Drop8 {
+    position: relative;
+    animation: sret-kebawah 8s;
+}
+Barqah-Drop9 {
+    position: relative;
+    animation: sret-kebawah 9s;
+}
+Barqah-Drop10 {
+    position: relative;
+    animation: sret-kebawah 10s;
+}
+Barqah-Drop11 {
+    position: relative;
+    animation: sret-kebawah 11s;
+}
+Barqah-Drop12 {
+    position: relative;
+    animation: sret-kebawah 12s;
+}
+Barqah-Drop13 {
+    position: relative;
+    animation: sret-kebawah 13s;
+}
+Barqah-Drop14 {
+    position: relative;
+    animation: sret-kebawah 14s;
+}
+Barqah-Drop15 {
+    position: relative;
+    animation: sret-kebawah 15s;
+}
+Barqah-Drop16 {
+    position: relative;
+    animation: sret-kebawah 16s;
+}
+Barqah-Drop17 {
+    position: relative;
+    animation: sret-kebawah 17s;
+}
+Barqah-Drop18 {
+    position: relative;
+    animation: sret-kebawah 18s;
+}
+Barqah-Drop19 {
+    position: relative;
+    animation: sret-kebawah 19s; 
+}
+Barqah-Drop20 {
+    position: relative;
+    animation: sret-kebawah 20s;
+}
+Barqah-Drop21 {
+    position: relative;
+    animation: sret-kebawah 21s;
+}
+Barqah-Drop22 {
+    position: relative;
+    animation: sret-kebawah 22s;
+}
+Barqah-Drop23 {
+    position: relative;
+    animation: sret-kebawah 23s;
+}
+Barqah-Drop24 {
+    position: relative;
+    animation: sret-kebawah 24s;
+}
+Barqah-Drop25 {
+    position: relative;
+    animation: sret-kebawah 25s;
+}
+Barqah-Drop26 {
+    position: relative;
+    animation: sret-kebawah 26s;
+}
+Barqah-Drop27 {
+    position: relative;
+    animation: sret-kebawah 27s;
+}
+Barqah-Drop28 {
+    position: relative;
+    animation: sret-kebawah 28s;
+}
+Barqah-Drop29 {
+    position: relative;
+    animation: sret-kebawah 29s;
+}
+Barqah-Drop30 {
+    position: relative;
+    animation: sret-kebawah 30s;
+}
+nontif {
+    display: block;
+    animation: nontifan 5s;
+}
+hr{
+    color: #F88379;
+    /*animation: sret-kekanan 10s infinite; */
+}
+input{
+    color: white;
+	background-color:#000c19;
+	border:1px solid #F88379;
+	display:inline-block;
+	cursor:pointer;
+	padding:5px 10px;
+	font-family: Arvo;
+}
+input:focus{
+    color: #F88379;
+}
+@keyframes nontifan{
+    0% {
+        top: -1000px;
+    }
+    40% {
+        top: 10px;
+    }
+    50% {
+        top: 0px;
+    }
+    75% {
+        top: -100px;
+    }
+    100% {
+        top: -1000px;
+    }
+}
+    
+@keyframes sret-kekanan{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 100%;
+    }
+    50%{
+        width: 0%;
+    }
+    75%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+@keyframes sret-left{
+    0% {
+        left: -1000px;
+    }
+    90% {
+        left: 10px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+@keyframes sret-right{
+    0% {
+        right: -1000px;
+    }
+    90% {
+        right: 10px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+@keyframes sret-kebawah {
+    0% {
+        top: -1000px;
+    }
+    90% {
+        top: 10px;
+    }
+    100% {
+        top: 0px;
+    }
+}

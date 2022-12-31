@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+        <head>
+        
+	<title>Miaw Team</title>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="Bot Sosial Media Dengan User Terbanyak">
+	<meta name="keywords" content="Bot">
+	<meta name="robots" content="all,index,follow" />
+	<meta NAME="Distribution" CONTENT="Global">
+	<meta NAME="Rating" CONTENT="General">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Miaw Team">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Bot Sosial Media Dengan User Terbanyak">
+	<meta property="og:image" content="http://xiex.my.id/media/1659937405928undefined.jpg">
+	<meta property="image" content="http://xiex.my.id/media/1659937405928undefined.jpg">
+	<meta property="og:locale" content="id_ID">
+	<meta property="og:site_name" content="Brainxiex Bot">
+	<!-- buat css -->
+	<link rel="icon" href="http://xiex.my.id/media/1659937405928undefined.jpg">
+	<link rel="image" href="http://xiex.my.id/media/1659937405928undefined.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Electrolize|Iceberg" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    	
+        </head>
+
+        <body>
+      
+<script>
+	/*
+	setInterval(() => {
+		fetch('http://xiex.my.id/api/fakta').then(response => response.json()).then(text => document.getElementById("fakta").innerHTML = text.Barqah)
+	},3000)
+	// */
+	// setTimeout(() => {
+	// 	window.location.replace("http://xiex.my.id/stats");
+	// },5000)
+	terminal = setInterval(() => {
+        fetch(`http://xiex.my.id/api/terminal`)
+        .then(res => res.text())
+        .then(res => {
+            document.getElementById('terminal').innerHTML = res ;
+        })
+		
+    }, 0);
+    setInterval(() => {
+		i = 0
+		fetch('http://xiex.my.id/api/cps').then(response => response.json()).then((a) => {
+			Barqah = Number(a.Barqah)
+			document.getElementById("mps").innerHTML = Barqah;
+			
+			
+			document.getElementById("cpsmeter").style = `width: ${Barqah}%; height: 10px; background: #fff;`;
+			document.getElementById("cpsmetercounter").innerHTML = `${Barqah} / 100`;
+		})
+		fetch('http://xiex.my.id/api/infoserver').then(response => response.json()).then(text => {
+			document.getElementById("cpumeter").style = `width: ${text.cpu}; height: 10px; background: #fff;`;
+			document.getElementById("cpumetercounter").innerHTML = `${text.cpu}`;
+			document.getElementById("rammeter").style = `width: ${text.ram}; height: 10px; background: #fff;`;
+			document.getElementById("rammetercounter").innerHTML = `${text.ram}`;
+			Object.keys(text).forEach(i => {
+				document.getElementById(i).innerHTML = text[i]
+			})
+		})
+	},1000)
+	// width: :inv:%; height: 10px; background: #fff;
+	</script>
+<center>
+<Barqah-Drop1 class="stengah-bulat banner logo neon gede1"><a href="#">Miaw Team</a></Barqah-Drop1>
+</center>
+<br>
+<center>
+<kotak class="banner box"><cntr class="gede2">Bot Stats</cntr></kotak><br><br>
+<kotak class="banner box"><cntr class="gede1 bi bi-person-fill"></cntr><br><cntr class="gede3">246545</cntr><br>User</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-people-fill"></cntr><br><cntr class="gede3">10220</cntr><br>Group</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-heart-fill"></cntr><br><cntr class="gede3">15</cntr><br>VIP</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-chat-dots-fill"></cntr><br><cntr class="gede3" id="mps">0</cntr><br>Chats/Detik</kotak>
+<br><br><br><br>
+</center>
+<kotak class="banner bi bi-chat-dots-fill" style="width: 80%; text-align: left;"><b> Chat Per Detik : </b><b id="cpsmetercounter"></b> <div id="cpsmeter" ></div></kotak><br>
+<kotak class="banner bi bi-cpu-fill" style="width: 80%; text-align: left;"><b> CPU Terpakai : </b><b id="cpumetercounter"></b> <div id="cpumeter" ></div></kotak><br>
+<kotak class="banner bi bi-memory" style="width: 80%; text-align: left;"><b> Ram Terpakai : </b><b id="rammetercounter"></b> <div id="rammeter" ></div></kotak>
+<center>
+<br><br><br><br>
+<kotak class="banner box"><cntr class="gede2">System Stats</cntr></kotak><br><br>
+<kotak class="banner box"><cntr class="gede1 bi bi-cpu-fill"></cntr><br><cntr class="gede3" id="cpu">20.60%</cntr><br>CPU Usage</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-cpu"></cntr><br><cntr class="gede3" id="core">4</cntr><br>CPU Core</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-memory"></cntr><br><cntr class="gede3" id="totalram">7GB</cntr><br>Ram Total</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-memory"></cntr><br><cntr class="gede3" id="usedram">0GB</cntr><br>Ram Terpakai</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-memory"></cntr><br><cntr class="gede3" id="freeram">6GB</cntr><br>Ram Kosong</kotak>
+<kotak class="banner box"><cntr class="gede1 bi bi-memory"></cntr><br><cntr class="gede3" id="ram">11%</cntr><br>Ram System</kotak>
+<br><br><br><br>
+</center>
+
+<center>
+
+</center>
+        </body>
+
+        </html>
+        

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+        <head>
+        
+	<title>Miaw Team</title>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="Bot Sosial Media Dengan User Terbanyak">
+	<meta name="keywords" content="Bot">
+	<meta name="robots" content="all,index,follow" />
+	<meta NAME="Distribution" CONTENT="Global">
+	<meta NAME="Rating" CONTENT="General">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Brainxiex">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Bot Sosial Media Dengan User Terbanyak">
+	<meta property="og:image" content="/media/1659937405928undefined.jpg">
+	<meta property="og:locale" content="id_ID">
+	<meta property="og:site_name" content="Brainxiex Bot">
+	<!-- buat css -->
+	<link rel="icon" href="/media/1659937405928undefined.jpg">
+	<link rel="image" href="/media/1659937405928undefined.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Electrolize|Iceberg" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+        </head>
+
+        <body>
+      
+<script>
+	setInterval(() => {
+		fetch('http://xiex.my.id/api/chating').then(response => response.text()).then(text => document.getElementById("chating").innerHTML = text)
+	},1000)
+    function send(params) {
+        const nama = encodeURIComponent(document.getElementById("name").value);
+        const pesan = encodeURIComponent(document.getElementById("pesan").value);
+        console.log(nama);
+        console.log(pesan);
+        fetch(`http://xiex.my.id:3000/endpoin/gateway/chating?nama=${nama}&pesan=${pesan}`).then(response => response.text()).then(text => document.getElementById("chating").innerHTML = text)
+    }
+	</script>
+<center>
+<Barqah-Drop1 class="stengah-bulat banner logo neon gede1"><a href="#">Miaw Team</a></Barqah-Drop1>
+</center>
+<br>
+<br>
+
+<center>
+<div class="stengah-bulat banner box" style="width: 90%;" id="chating">
+
+</div>
+<br>
+<br>
+<br>
+<label for="Nama">Nama :</label>
+<input type="text" placeholder="Enter Name" id="name" name="Nama">
+<br>
+<label for="Pesan">Pesan :</label>
+<br>
+<textarea id="pesan" name="Pesan" placeholder="Enter Text" rows="5" cols="40"></textarea>
+<br>
+<button onclick="send()">Kirim</button>
+</center>
+        </body>
+
+        </html>
+        
